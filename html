@@ -6,13 +6,85 @@
     <title>all about cheese
     </title>
 </head>
-<style>
+<style> 
+body {
+       background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%); 
+      }
    h1 {
         text-align: center;
         color: #2812a2;
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
-      }  
+      } 
+      h2 {
+         background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+        text-align: center;
+        border: 1px solid #ff8ed4;
+        padding: 10px;
+        font-size: 20px;
+        color: #2812a2;
+        
+      }
+
+      .border-element {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        border: 1px solid #ff8ed4;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        max-width: 100%;
+        border-radius: 20px;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 10px 0 10px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        color: #2812a2;
+        background-color: #a09aff;
+        width: fit-content;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        margin-top: 20px;
+      }
+      .footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px 40px;
+      }
+      .learn-more {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #0f3cff;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+      } 
 </style>
 <body>
     <div class="container">
@@ -22,7 +94,21 @@
         alt="Cheddar Cheese"
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/256/original/Cheddar_Cheese.jpeg?1707322719"
         />
+        <p>
         
+            Cheddar cheese is a natural cheese that is relatively hard, off-white,
+            and sometimes sharp-tasting. It originates from the English village of
+            Cheddar in Somerset. Cheddar is produced all over the world, and
+            cheddar cheese has no protected designation of origin.
+          </p>
+              <a class="learn-more" href="https://en.wikipedia.org/wiki/Cheddar_cheese" target="_blank">
+  
+           <em>Learn more on Wikipedia</em>
+          </a>
+  
+         <button class="buy-button">👉Buy Cheddar Cheese</button>
+  
+         <p class="footer">This page was built by Primrose Ncube</p>   
         
 </body>
 </html>
